@@ -1,0 +1,306 @@
+body{
+    background-color:white;
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    gap: 30px;  /* Add gap between the cards */
+    min-height: 100vh;  /* Take full viewport height */
+    padding: 20px;  /* Add some padding */
+}
+.business-card{
+    background-color: #00E676;
+    color:black;
+    padding:50px;
+    border-radius: 10px;
+    max-width:500px;
+    height:400px;
+}
+.business-card h1{
+    font-size: 2.2rem;
+    font-weight:bold;
+    margin-bottom:15px;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+.business-card p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+button {
+    background-color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* PROFILE CARD SECTION*/
+.profile-card {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.profile-card h2 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.profile-card p {
+    color: #555;
+    margin-top: 5px;
+    font-size: 1.05rem;
+}
+
+.profile-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.profile-images img {
+    width: 150px;  /* big images */
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #dadce0;
+    object-fit: cover;
+}
+
+.footer-link {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.footer-link a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
+/* 3RD CARD SECTION */
+
+
+        .google-photos-card {
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+            max-width: 500px;
+            width: 100%;
+            position: relative;
+            margin-top:15px;
+        }
+
+        /* Hero section - blank for background image */
+        .hero-section {
+            height: 320px;
+            position: relative;
+            border-radius: 24px 24px 0 0;
+            overflow: hidden;
+        }
+
+        /* Background image syntax for hero section */
+        .hero-background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        /* Water effect at bottom */
+        .water-line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20%;
+            background: linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, transparent 100%);
+        }
+
+        /* Card content section */
+        .card-content {
+            padding: 32px 28px 36px;
+            background: white;
+        }
+
+        /* Lock icon and subscription text */
+        .subscription-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .lock-icon {
+            width: 18px;
+            height: 18px;
+            fill: #5f6368;
+        }
+
+        .subscription-text {
+            font-size: 12px;
+            color: #5f6368;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+        }
+
+        /* Main heading */
+        .main-heading {
+            font-size: 28px;
+            font-weight: 400;
+            color: #202124;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        /* Description text */
+        .description {
+            font-size: 16px;
+            color: #5f6368;
+            line-height: 1.5;
+            margin-bottom: 32px;
+        }
+
+        /* View details button */
+        .view-details-btn {
+            background: none;
+            border: 2px solid #dadce0;
+            color: #1a73e8;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .view-details-btn:hover {
+            border-color: #1a73e8;
+            background-color: rgba(26, 115, 232, 0.04);
+        }
+
+        /* Phone screen image */
+        .phone-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        /*FINAL PART*/
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top horizontal line */
+.top-line {
+  width: 40%;
+  height: 1px;
+  background: #000;
+  margin-bottom: 40px;
+}
+
+/* Centering the login box */
+.login-container {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Welcome text */
+.welcome {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+/* Button */
+.login {
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+.links {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.links a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Terms text */
+.terms {
+  font-size: 11px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.terms a {
+  color: #000;
+  text-decoration: underline;
+}

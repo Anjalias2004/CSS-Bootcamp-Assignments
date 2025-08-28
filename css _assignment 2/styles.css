@@ -1,0 +1,192 @@
+.body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width:600px;
+    padding:10px;
+    border:1px solid lightgrey;
+    margin:10px auto;
+    border-radius: 20px;
+}
+.image-container {
+  position: relative; /* Parent container for absolute positioning */
+  display: inline-block;
+}
+.img{
+    border-radius: 20px;
+    width:100%;
+    display:block;
+}
+.loc{
+    color:rgb(172, 170, 170);
+}
+.offer{
+    padding:10px;
+    border:none;
+    background-color:rgb(88, 139, 243);
+    position:absolute;
+    top:47%;
+    left:30.39%;
+    font-weight: bold;
+    color:white;
+    
+}
+.time{
+    padding:10px;
+    border:none;
+    background-color:white;
+    position:absolute;
+    top:47%;
+    left:65%;
+    border-radius:10px;
+    
+}
+.promote{
+    padding:5px;
+    border:none;
+    background-color:lightgrey;
+    position:absolute;
+    top:2%;
+    left:31%;
+    border-radius:10px;
+    color:white;
+}
+.sub{
+    display:flex;
+    padding:10px;
+    gap:20px;
+    border-top:1px solid lightgrey;
+    align-items: center;
+}
+.logo{
+    height:30px;
+    }
+.para{
+    color:rgb(177, 168, 168);
+    font-size: 23px;
+    height:40px;
+}
+.card2{
+    font-family: Arial,  sans-serif;
+    align-content: center;
+    border:none;
+    padding:10px;
+    width:600px;
+    position:relative;
+    margin:10px auto;
+}
+.bali-image{
+    border-radius: 10px;
+    width:100%;
+    display:block;
+}
+.bali{
+    color:black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    width:100%;
+}
+.explore{
+    color:black;
+    background-color: white;
+    border-radius:20px;
+    padding:10px;
+    border:none;
+    width:100px;
+    cursor: pointer;
+}
+.card3{
+    align-content: center;
+    border:none;
+    padding:10px;
+    width:600px;
+    position:relative;
+    margin:10px auto;
+}
+.zomato-image{
+    height:100px;
+    width:100%;
+}
+.h{
+  font-family: 'Montserrat', sans-serif; /* or Arial, Helvetica */
+  font-weight: 700; /* bold */
+  font-size: 40px;
+  color:white;
+}
+.search-box {
+  display: flex;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.search-box input {
+  border: none;
+  padding: 12px 15px;
+  font-size: 14px;
+  outline: none;
+}
+.location {
+  width: 150px;
+  border-right: 1px solid #ddd;
+
+}
+.search {
+  flex: 1; /* takes remaining width */
+}
+.search-btn {
+  border: none;
+  padding: 0 15px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin:10px auto;
+}
+.zomato{
+    color:black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    width:100%;
+}
+
+.profile{
+    align-content: center;
+    border:10px solid  lightgrey;
+    width:600px;
+    position:relative;
+    margin:10px auto;
+}
+.background{
+    height:200px;
+    width:100%;
+    border-radius:10px;
+}
+.profile-img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    position:absolute;
+    top:130px;
+    right:250px;
+}
+
+.name{
+    color:black;
+    font-size: 40px;
+}
+.about{
+    color:rgb(195, 192, 192);
+    padding:10px;
+    border:none;
+}
