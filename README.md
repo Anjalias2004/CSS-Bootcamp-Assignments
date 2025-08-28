@@ -21,7 +21,7 @@ Each assignment has its own folder with the related HTML and CSS files.
   - `index.html`  
   - `styles.css`  
 
-👉 [View Assignment 2](./css_assignment%202)  
+👉 [View Assignment 2](./css_assignment%202](https://github.com/Anjalias2004/CSS-Bootcamp-Assignments/tree/main/css%20_assignment%202))  
 
 ---
 
